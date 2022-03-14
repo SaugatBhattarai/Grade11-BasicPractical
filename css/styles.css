@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Segoe UI';
+	width: 100%;
+}
+
+section{
+	padding: 30px 0;
+	/*margin: 20px 0;*/
+}
+
+#header {
+	background-color: #091E42;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 30px 0;
+}
+
+#header h1{
+	color: #ffffff;
+	font-size: 40px;
+}
+
+/*==== navbar starts*/
+
+#navbar{
+	background-color: #DDDDDD;
+}
+
+#navbar .nav-list {
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	margin-right:40px; 
+	padding: 10px 0;
+}
+
+#navbar .nav-list li {
+	list-style-type: none;
+	margin-right: 20px;
+}
+
+#navbar .nav-list li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+/*===== navbar ends*/
+
+/*====== introduction section starts*/
+
+#intro p{
+	max-width: 85%;
+	font-size: 20px;
+	letter-spacing: 0.2px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#intro span{
+	color: #C51F8C;
+}
+
+/*===== intro section ends here*/
+
+.section-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #7272FF;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+
+#skills .section-details ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+#skills .section-details ul li{
+	width: 25%;
+}
+
+#skills {
+	/*width: 85%;*/
+	/*margin: 0px auto;*/
+	background-color: #DDDDDD;
+}
+
+#skills .section-details{
+	width: 85%;
+    margin: 0px auto;
+}
+
+#about .section-details{
+	display: flex;
+	flex-direction: row;
+}
