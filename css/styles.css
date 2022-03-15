@@ -57,7 +57,7 @@ section{
 
 #intro p{
 	max-width: 85%;
-	font-size: 20px;
+	font-size: 18px;
 	letter-spacing: 0.2px;
 	margin: 0px auto;
 	text-align: center;
@@ -82,6 +82,7 @@ section{
 #skills .section-details ul{
 	display: flex;
 	justify-content: space-around;
+	font-size: 18px;
 }
 
 #skills .section-details ul li{
@@ -102,4 +103,39 @@ section{
 #about .section-details{
 	display: flex;
 	flex-direction: row;
+	font-size: 18px;
+}
+
+#about .section-details .about-content span{
+	color: #C51F8C;
+}
+#about {
+	width: 85%;
+	margin: 0px auto;
+}
+
+#about .section-details img{
+	margin-right: 20px;
+}
+
+#contact {
+	background-color: #DDDDDD;
+}
+
+#contact .section-details{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 18px;
+}
+
+#footer {
+	background-color: #091E42;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #ffffff;
 }
